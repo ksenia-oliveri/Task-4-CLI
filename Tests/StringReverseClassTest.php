@@ -1,5 +1,7 @@
 <?php 
-namespace App;
+namespace App\Tests;
+
+use App\StringReverse;
 use PHPUnit\Framework\TestCase;
 
 class StringReverseClassTest extends TestCase 
