@@ -9,7 +9,7 @@ use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
 
 #[AsCommand(name: 'app:anagram')]
-class GetReversedString extends Command 
+class Anagram extends Command 
 {   
 
     protected function configure(): void

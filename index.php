@@ -2,11 +2,11 @@
 <?php
 require __DIR__.'/vendor/autoload.php';
 
-use App\Command\MyCommand;
+use App\Command\Anagram;
 use Symfony\Component\Console\Application;
 
 $application = new Application();
 
-$application->add(new MyCommand);
+$application->add(new Anagram);
 
 $application->run();
